@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Anime-Blast</title>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo:700" rel="stylesheet" type="text/css">
+
+<script language="JavaScript">
+document.oncontextmenu =new Function("return false;");
+</script>    
+
+<style>
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d151a;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 3.3px;
+    left: 0px;
+    right: 0px;
+    font-weight: bold;
+    font-weight: 700px;
+    background-size: contain;
+    text-transform: uppercase;
+}
+
+ul#navbar li {
+    float:left;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-family: 'Arimo', Generic_Name;
+    letter-spacing: -1px;
+    font-size: 25PX;
+        color: #dddddd;
+    padding: 28Px 17px 30px 1px;
+    text-decoration: none;
+    padding-left: 12px;
+
+}
+
+
+ul#navbar li a:hover {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+
+
+ul#navbar li a:after {
+  content: "";
+  background: white;
+  position: absolute;
+  left: 1;
+  height: 25%;
+  width: 1px;
+  margin-bottom: 25px;
+  margin-left: 17.1px;
+  padding-bottom: 10px;
+  margin-right: 13px;
+}
+
+#ablogo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 85px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border: 5px solid red;
+}
+
+#simpleline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    width: 1920px;
+    height: 6.5px;
+    position: absolute;
+    top: 89px;
+    left: 0px;
+    right: 0px;
+    font-weight: bold;
+    font-weight: 700px;
+}
+
+.rosterout {
+    position: absolute;
+    padding-top: 320px;
+    top: 250px;
+    margin-left: 150px;
+    padding-right: 150px;
+    width: 1598px;
+    max-width: 1598px;
+    background-image: url("rosterouter.png");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #dddddd;
+    font-family: 'Arimo', Generic_Name;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 70px;
+    margin-top: 125px;
+    margin-left: 785px;
+}
+
+.greybox {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    width: 1390px;
+    height: 135px;
+    position: relative;
+    top: 243px;
+    left: 267px;
+    right: 0px;
+    font-weight: bold;
+    font-weight: 700px;
+
+}
+.searchbar {
+    width: 850px;
+    height: 25px;
+    position: relative;
+    top: 107px;
+    left: 500px;
+    border-color: #0d151a;
+    border-width: 1px;
+    font-family:'Arimo', Generic_Name;
+    font-size: 15px;
+    background-color: #dddddd;
+    color: #0d151a;
+    padding-left: 10px; 
+}
+
+body {
+	background-color: #0d151a;
+
+}
+
+	</style>
+
+</head>
+	<body>
+	<ul id="navbar">
+	<li><img src="ablogo.png" class="ablogo">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="game.html">GAME</a></li>
+    <li><a href="forum.html">FORUM</a></li>
+    <li><a href="clans.html">CLANS</a></li>
+    <li><a href="roster.html">roster</a></li>
+</ul>
+<div id="simpleline"> </div>
+
+<h1> Roster</h1>
+<div class="rosterout"></div>
+<div class="greybox"> </div>
+<input type="text" required placeholder="Search for characters here..." class="searchbar"> 
+
+
+	</body>
+
+</html>
